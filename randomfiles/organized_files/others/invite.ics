@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Australia/Adelaide
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Australia/Adelaide
+X-LIC-LOCATION:Australia/Adelaide
+BEGIN:STANDARD
+TZNAME:ACST
+TZOFFSETFROM:+1030
+TZOFFSETTO:+0930
+DTSTART:19700405T030000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+TZNAME:ACDT
+TZOFFSETFROM:+0930
+TZOFFSETTO:+1030
+DTSTART:19701004T020000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=1SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20231012T160703Z
+DTSTART;TZID=Australia/Adelaide:20231020T230000
+DTEND;TZID=Australia/Adelaide:20231021T003000
+SUMMARY:Unlock your voice\, unlock your potential -
+UID:b97kuj9o64ojce1o6sr30d9m6oo4gkji75lmckileko78p21at4nkqrm8drg
+TZID:Australia/Adelaide
+DESCRIPTION:Join from a PC\, Mac\, iPad\, iPhone or Android device:\n    Please click this URL to join. https://us06web.zoom.us/w/81168876056?tk=FAlGTDfkPsiZMdGS_athWLlkX0yukCOC0pdkzQQWz-U.DQQAAAAS5grCGBY2MEhScjlrZlJVdTB0ZEFXSXprdkN3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=3Viba7rTB8yRISIg7jftebfDA4pW29.1&uuid=WN_WYXhZ4SFToiN6UjjRD2ySg\n    Passcode: 404542\n	Description: Join Vinh Giang in a 90 min LIVE Masterclass. \n\n3 secrets that will help you::\n\n- Become more confident\, \n- Achieve faster career progression \n- Creating more depth in relationships/ friendships \n\nJoin the Masterclass LIVE and you will get Vinh's Self Awareness Guide for FREE! *Only available to those who join LIVE*\n\nIf you have any questions please reach out to support@vinhgiang.com\n\n\nOr One tap mobile:\n    +16469313860\,\,81168876056#\,\,\,\,*404542# US\n    +19292056099\,\,81168876056#\,\,\,\,*404542# US (New York)\n\nOr join by phone:\n    Dial(for higher quality\, dial a number based on your current location):\n        US: +1 646 931 3860  or +1 929 205 6099  or +1 301 715 8592  or +1 305 224 1968  or +1 309 205 3325  or +1 312 626 6799  or +1 669 444 9171  or +1 669 900 6833  or +1 689 278 1000  or +1 719 359 4580  or +1 253 205 0468  or +1 253 215 8782  or +1 346 248 7799  or +1 360 209 5623  or +1 386 347 5053  or +1 507 473 4847  or +1 564 217 2000 \n    Webinar ID: 811 6887 6056\n    Passcode: 404542\n    International numbers available: https://us06web.zoom.us/u/kdJCZRG2Qy\n\n
+LOCATION:https://us06web.zoom.us/w/81168876056?tk=FAlGTDfkPsiZMdGS_athWLlkX0yukCOC0pdkzQQWz-U.DQQAAAAS5grCGBY2MEhScjlrZlJVdTB0ZEFXSXprdkN3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=3Viba7rTB8yRISIg7jftebfDA4pW29.1&uuid=WN_WYXhZ4SFToiN6UjjRD2ySg
+ORGANIZER;ROLE=REQ-PARTICIPANT;CN=Vinh Giang:no-reply@zoom.us
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN=Harsh Kumar:harshkumar8860@gmail.com
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
